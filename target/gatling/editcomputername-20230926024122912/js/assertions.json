@@ -1,0 +1,10 @@
+{
+  "simulation": "com.gatling.test.EditComputerName",
+  "simulationId": "editcomputername",
+  "start": 1695696082912,
+  "description": "Test Run ramp up",
+  "scenarios": ["Admins"],
+  "assertions": [
+
+  ]
+}

@@ -1,0 +1,31 @@
+RUN	com.gatling.test.api.APITest1	apitest1	1696392728679	 	3.6.1
+USER	Get API request	START	1696392733723
+USER	Get API request	START	1696392731733
+USER	Get API request	START	1696392732221
+USER	Get API request	START	1696392733223
+USER	Get API request	START	1696392734218
+USER	Get API request	START	1696392732723
+USER	Get API request	START	1696392734717
+USER	Get API request	START	1696392735217
+REQUEST		Get single user	1696392732222	1696392735148	KO	jsonPath($.data.first_name).find.is(Janett), but actually found Janet
+REQUEST		Get single user	1696392733224	1696392735148	KO	jsonPath($.data.first_name).find.is(Janett), but actually found Janet
+REQUEST		Get single user	1696392731756	1696392735148	KO	jsonPath($.data.first_name).find.is(Janett), but actually found Janet
+REQUEST		Get single user	1696392734718	1696392735148	KO	jsonPath($.data.first_name).find.is(Janett), but actually found Janet
+REQUEST		Get single user	1696392732724	1696392735148	KO	jsonPath($.data.first_name).find.is(Janett), but actually found Janet
+REQUEST		Get single user	1696392734218	1696392735148	KO	jsonPath($.data.first_name).find.is(Janett), but actually found Janet
+REQUEST		Get single user	1696392733724	1696392735148	KO	jsonPath($.data.first_name).find.is(Janett), but actually found Janet
+REQUEST		Get single user	1696392735218	1696392735308	KO	jsonPath($.data.first_name).find.is(Janett), but actually found Janet
+USER	Get API request	START	1696392735717
+REQUEST		Get single user	1696392735718	1696392735818	KO	jsonPath($.data.first_name).find.is(Janett), but actually found Janet
+USER	Get API request	START	1696392736215
+USER	Get API request	END	1696392736273
+USER	Get API request	END	1696392736273
+USER	Get API request	END	1696392736274
+USER	Get API request	END	1696392736274
+USER	Get API request	END	1696392736274
+USER	Get API request	END	1696392736274
+USER	Get API request	END	1696392736274
+REQUEST		Get single user	1696392736216	1696392736310	KO	jsonPath($.data.first_name).find.is(Janett), but actually found Janet
+USER	Get API request	END	1696392736311
+USER	Get API request	END	1696392736825
+USER	Get API request	END	1696392737313

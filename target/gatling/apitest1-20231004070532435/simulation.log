@@ -1,0 +1,31 @@
+RUN	com.gatling.test.api.APITest1	apitest1	1696403132435	 	3.6.1
+USER	Get API request	START	1696403136849
+USER	Get API request	START	1696403137853
+USER	Get API request	START	1696403138342
+USER	Get API request	START	1696403136349
+USER	Get API request	START	1696403138841
+USER	Get API request	START	1696403135868
+USER	Get API request	START	1696403137351
+USER	Get API request	START	1696403139340
+REQUEST		Get single user	1696403135899	1696403139262	KO	jsonPath($.data.first_name).find.is(Janett), but actually found Janet
+REQUEST		Get single user	1696403137854	1696403139263	KO	jsonPath($.data.first_name).find.is(Janett), but actually found Janet
+REQUEST		Get single user	1696403138842	1696403139262	KO	jsonPath($.data.first_name).find.is(Janett), but actually found Janet
+REQUEST		Get single user	1696403136350	1696403139262	KO	jsonPath($.data.first_name).find.is(Janett), but actually found Janet
+REQUEST		Get single user	1696403137352	1696403139263	KO	jsonPath($.data.first_name).find.is(Janett), but actually found Janet
+REQUEST		Get single user	1696403138342	1696403139263	KO	jsonPath($.data.first_name).find.is(Janett), but actually found Janet
+REQUEST		Get single user	1696403139341	1696403139447	KO	jsonPath($.data.first_name).find.is(Janett), but actually found Janet
+REQUEST		Get single user	1696403136850	1696403139483	KO	jsonPath($.data.first_name).find.is(Janett), but actually found Janet
+USER	Get API request	START	1696403139842
+REQUEST		Get single user	1696403139843	1696403139968	KO	jsonPath($.data.first_name).find.is(Janett), but actually found Janet
+USER	Get API request	START	1696403140340
+USER	Get API request	END	1696403140360
+USER	Get API request	END	1696403140360
+USER	Get API request	END	1696403140360
+USER	Get API request	END	1696403140360
+USER	Get API request	END	1696403140360
+USER	Get API request	END	1696403140360
+USER	Get API request	END	1696403140451
+USER	Get API request	END	1696403140488
+REQUEST		Get single user	1696403140340	1696403140527	KO	jsonPath($.data.first_name).find.is(Janett), but actually found Janet
+USER	Get API request	END	1696403140973
+USER	Get API request	END	1696403141532

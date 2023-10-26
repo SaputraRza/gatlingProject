@@ -1,0 +1,3 @@
+RUN	com.gatling.test.FeederDemo	feederdemo	1698217398284	 	3.6.1
+USER	Feeders Demo	START	1698217398368
+USER	Feeders Demo	END	1698217401395
